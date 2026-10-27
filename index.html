@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TheGym — Where North Georgia Lifts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">The<span>Gym</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#locations">Locations</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#classes">Classes &amp; Pricing</a>
+      <a href="#events">Events</a>
+      <a class="nav-cta" href="#locations">Find Your Gym</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Four clubs across the North Georgia mountains</div>
+        <h1>Where North<br>Georgia <em>Lifts</em></h1>
+        <p class="lede">Full-service, 24-hour gyms in Blairsville, Dawsonville, and Hiawassee, plus CrossFit Jubilation. Real equipment, real community, open on your schedule &mdash; not ours.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#locations">Our Locations</a>
+          <a class="btn-ghost" href="#events">Upcoming Events</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-stats-wrap">
+    <div class="hero-stats">
+      <div class="wrap">
+        <div class="stat"><div class="num">4</div><div class="label">Clubs across North GA</div></div>
+        <div class="stat"><div class="num">24/7</div><div class="label">Member access, every day</div></div>
+        <div class="stat"><div class="num">1</div><div class="label">Community, one shared standard</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy" id="philosophy">
+    <div class="wrap">
+      <div class="philosophy-head">
+        <h2>Our Philosophy</h2>
+        <p class="philosophy-copy">TheGym is more than a place to train &mdash; it's a community built around strength and self-improvement, where members connect, push each other, and show up for their own goals.</p>
+      </div>
+    </div>
+    <div class="creed">
+      <div class="creed-item">
+        <div class="mark">01</div>
+        <p>Fitness is not one size fits all.</p>
+      </div>
+      <div class="creed-item">
+        <div class="mark">02</div>
+        <p>Your goals matter, whatever they are.</p>
+      </div>
+      <div class="creed-item">
+        <div class="mark">03</div>
+        <p>24-hour access, built around your schedule.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATIONS -->
+  <section id="locations">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Our Locations</h2>
+          <p>Four clubs, one standard. Pick the one closest to you &mdash; your key works at every TheGym location.</p>
+        </div>
+      </div>
+
+      <div class="loc-tabs" role="tablist">
+        <button class="loc-tab active" data-loc="blairsville" role="tab" aria-selected="true">Blairsville</button>
+        <button class="loc-tab" data-loc="dawsonville" role="tab" aria-selected="false">Dawsonville</button>
+        <button class="loc-tab" data-loc="hiawassee" role="tab" aria-selected="false">Hiawassee</button>
+        <button class="loc-tab" data-loc="jubilation" role="tab" aria-selected="false">CrossFit Jubilation</button>
+      </div>
+
+      <div class="loc-panels">
+        <div class="loc-panel active" data-panel="blairsville">
+          <div class="loc-info">
+            <h3>TheGym &mdash; Blairsville</h3>
+            <div class="loc-row"><span class="k">Address</span><span class="v">1741A Blue Ridge Hwy, Blairsville, GA</span></div>
+            <div class="loc-row"><span class="k">Phone</span><span class="v">706-781-5320</span></div>
+            <div class="loc-row"><span class="k">Staffed Hours</span><span class="v">Mon&ndash;Thu 9am&ndash;8pm &middot; Fri 9am&ndash;6pm &middot; Sat 9am&ndash;3pm</span></div>
+            <div class="loc-badge">Open 24 hours for members</div>
+          </div>
+          <div class="loc-visual"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="55" width="100" height="8" fill="#C1442D"/><rect x="4" y="40" width="10" height="38" fill="#F3ECE0"/><rect x="106" y="40" width="10" height="38" fill="#F3ECE0"/></svg></div>
+        </div>
+        <div class="loc-panel" data-panel="dawsonville">
+          <div class="loc-info">
+            <h3>TheGym &mdash; Dawsonville</h3>
+            <div class="loc-row"><span class="k">Address</span><span class="v">749 SR-53, Suite 100, Dawsonville, GA</span></div>
+            <div class="loc-row"><span class="k">Phone</span><span class="v">706-265-7093</span></div>
+            <div class="loc-row"><span class="k">Staffed Hours</span><span class="v">Mon&ndash;Thu 9am&ndash;8pm &middot; Fri 9am&ndash;6pm &middot; Sat 9am&ndash;1pm</span></div>
+            <div class="loc-badge">Open 24 hours for members</div>
+          </div>
+          <div class="loc-visual"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="55" width="100" height="8" fill="#C1442D"/><rect x="4" y="40" width="10" height="38" fill="#F3ECE0"/><rect x="106" y="40" width="10" height="38" fill="#F3ECE0"/></svg></div>
+        </div>
+        <div class="loc-panel" data-panel="hiawassee">
+          <div class="loc-info">
+            <h3>TheGym &mdash; Hiawassee</h3>
+            <div class="loc-row"><span class="k">Address</span><span class="v">536 Bell Creek Rd, Hiawassee, GA</span></div>
+            <div class="loc-row"><span class="k">Phone</span><span class="v">706-896-0820</span></div>
+            <div class="loc-row"><span class="k">Staffed Hours</span><span class="v">Mon&ndash;Thu 9am&ndash;8pm &middot; Fri 9am&ndash;6pm &middot; Sat 9am&ndash;1pm</span></div>
+            <div class="loc-badge">Open 24 hours for members</div>
+          </div>
+          <div class="loc-visual"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="55" width="100" height="8" fill="#C1442D"/><rect x="4" y="40" width="10" height="38" fill="#F3ECE0"/><rect x="106" y="40" width="10" height="38" fill="#F3ECE0"/></svg></div>
+        </div>
+        <div class="loc-panel" data-panel="jubilation">
+          <div class="loc-info">
+            <h3>CrossFit Jubilation</h3>
+            <div class="loc-row"><span class="k">Program</span><span class="v">CrossFit-style classes hosted from our Hiawassee club</span></div>
+            <div class="loc-row"><span class="k">Class Days</span><span class="v">Mon &amp; Thu 5:30pm &middot; Mon, Wed, Fri &amp; Sat 9:30am</span></div>
+            <div class="loc-row"><span class="k">Open Gym</span><span class="v">Anytime a class isn't in session</span></div>
+            <div class="loc-badge">See class schedule below</div>
+          </div>
+          <div class="loc-visual"><svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="34" fill="none" stroke="#D6A24C" stroke-width="4"/><rect x="55" y="20" width="10" height="20" fill="#C1442D"/><rect x="55" y="80" width="10" height="20" fill="#C1442D"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASSES & PRICING -->
+  <section id="classes">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Classes &amp; Membership</h2>
+          <p>CrossFit Jubilation class times and straightforward membership options &mdash; no surprise fees, no long sales pitch.</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="panel-block">
+          <h3>Class Schedule</h3>
+          <div class="sched-row"><span class="days">Monday &amp; Thursday</span><span class="time">5:30 PM</span></div>
+          <div class="sched-row"><span class="days">Monday, Wednesday, Friday &amp; Saturday</span><span class="time">9:30 AM</span></div>
+          <p class="sched-note">Open gym is available anytime a class isn't in session.</p>
+        </div>
+        <div class="panel-block">
+          <h3>Pricing</h3>
+          <div class="price-row"><span class="plan">12-Month Commitment<small>Plus a one-time $49 key fee</small></span><span class="amount">$99/mo</span></div>
+          <div class="price-row"><span class="plan">No Commitment<small>Plus a one-time $49 key fee</small></span><span class="amount">$119/mo</span></div>
+          <div class="price-row"><span class="plan">Drop-In<small>Single visit, any location</small></span><span class="amount">$29</span></div>
+          <div class="price-row"><span class="plan">Week Drop-In<small>Seven days, full access</small></span><span class="amount">$69</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="events" id="events">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Upcoming Events</h2>
+          <p>Meets our members are training for and competing in this year.</p>
+        </div>
+      </div>
+      <div class="event-list">
+        <div class="event-row">
+          <div class="event-date">JUN 6<br>2026</div>
+          <div class="event-name">
+            <h4>Southern USA Pro/Am</h4>
+            <p>Cumming, GA</p>
+          </div>
+          <a class="event-link" href="#">Details</a>
+        </div>
+        <div class="event-row">
+          <div class="event-date">JUL 18<br>2026</div>
+          <div class="event-name">
+            <h4>The Legends Pro/Am</h4>
+            <p>Woodbridge, VA</p>
+          </div>
+          <a class="event-link" href="#">Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="wrap">
+      <h2>Your Key Works<br>at Every Club</h2>
+      <p>Stop by any location to tour the floor, meet the staff, and start on a plan built for your goals &mdash; not a script.</p>
+      <a class="btn-primary" href="#locations">Find Your Gym</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="#top">The<span>Gym</span></a>
+        <p>Full-service, 24-hour gyms serving North Georgia.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Locations</h5>
+          <a href="#locations">Blairsville</a>
+          <a href="#locations">Dawsonville</a>
+          <a href="#locations">Hiawassee</a>
+          <a href="#locations">CrossFit Jubilation</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <span>Blairsville: 706-781-5320</span>
+          <span>Dawsonville: 706-265-7093</span>
+          <span>Hiawassee: 706-896-0820</span>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#philosophy">Philosophy</a>
+          <a href="#classes">Classes &amp; Pricing</a>
+          <a href="#events">Events</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 TheGym of Georgia. All rights reserved.</span>
+      <span>Blairsville &middot; Dawsonville &middot; Hiawassee</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
